@@ -16,24 +16,62 @@ body{
 
 .title{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50%;
+    font-size: 4.5vh;
 }
 
 .quiz-header{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5%;
 
-    font-size: 18px;
+    font-size: 2.3vh;
 }
 
 #question{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10%;
 
-    font-size: 18px;
+    font-size: 2.2vh;
 }
 
 .buttons{
     text-align: center;
-    padding-top: 25px;
+    padding-top: 10%;
 }
+
+.btn{
+    font-size: 2.1vh;
+    background-color: transparent;
+    text-shadow: 1px 1px 0px #7CACDE;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+}
+
+/* testo di quando sono finite le domande */
+
+.finish{
+    text-align: center;
+}
+
+.title-finish{
+    padding-top: 50%;
+    font-size: 4.5vh;
+}
+
+#score{
+    padding-top: 10%;
+    font-size: 2.3vh;
+}
+
+.quiz-repeat{
+    padding-top: 15%;
+    font-size: 2.2vh;
+}
+
+.quiz-repeat , a{
+    color: rgb(0, 0, 0);
+}
+

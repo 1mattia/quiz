@@ -76,10 +76,12 @@ function showProgress() {
 function showScores() {
     let quizEndHTML =
         `
-    <h1>Quiz Completed</h1>
-    <h2 id='score'> Your scored: ${quiz.score} of ${quiz.questions.length}</h2>
-    <div class="quiz-repeat">
-        <a href="index.html">Take Quiz Again</a>
+    <div class="finish">    
+        <h1 class="title-finish">Quiz completato</h1>
+        <h2 id='score'> Hai indovinato: ${quiz.score} su ${quiz.questions.length}</h2>
+        <div class="quiz-repeat">
+            <a href="index.html">Vuoi rifare il quiz ?</a>
+        </div>
     </div>
     `;
     let quizElement = document.getElementById("quiz");
