@@ -48,6 +48,7 @@ body{
     border: 2px solid #3866A3;
     background: #63B8EE;
     background: linear-gradient(to top, #63B8EE, #468CCF);
+    cursor: pointer;
 }
 
 

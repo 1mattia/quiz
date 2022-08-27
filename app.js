@@ -91,19 +91,40 @@ function showScores() {
 // create questions here
 let questions = [
     new Question(
-        "Hyper Text Markup Language Stands For?", ["JQuery", "XHTML", "CSS", "HTML"], "HTML"
+        "Qual' è la capitale dell' Italia?", ["Roma", "Milano", "Napoli", "Calabria"], "Roma"
     ),
     new Question(
-        "Cascading Style sheet stands for?", ["HTML", "JQuery", "CSS", "XML"], "CSS"
+        "Dove si trova la torre Eifel?", ["Tokyo", "Londra", "Parigi", "Mosca"], "Parigi"
     ),
     new Question(
-        "Which is a JavaScript Framework?", ["React", "Laravel", "Django", "Sass"], "React"
+        "Di che colore è il cielo?", ["Rosa", "Rosso", "Blu", "Azurro"], "Azurro"
     ),
     new Question(
-        "Which is a backend language?", ["PHP", "HTML", "React", "All"], "PHP"
+        "Dove sorge il sole?", ["Est", "Ovest", "Nord", "Sud"], "Est"
     ),
     new Question(
-        "Which is best for Artificial intelligence?", ["React", "Laravel", "Python", "Sass"], "Python"
+        "Dove tramonta il sole?", ["Nord", "Est", "Ovest", "Sud"], "Ovest"
+    ),
+    new Question(
+        "Quanto pesa un kg di fieno?", ["100 KG", "10 KG", "0 KG", "1 KG"], "1 KG"
+    ),
+    new Question(
+        "Il nome di lincoln?", ["Abramo", "Biden", "Putin", "Matarella"], "Abramo"
+    ),
+    new Question(
+        "Dove si trova il louvre?", ["Mosca", "Parigi", "Pechino", "Roma"], "Parigi"
+    ),
+    new Question(
+        "Quante calorie ci sono in un bicchiere d'acqua?", ["10", "22", "0", "11"], "0"
+    ),
+    new Question(
+        "Chi è il presidente dell'america?", ["Luis", "Silvio", "Giuseppe", "Biden"], "Python"
+    ),
+    new Question(
+        "Dove si trova l'est sulla cartina?", ["A sinistra", "A destra", "A est", "A ovest"], "A destra"
+    ),
+    new Question(
+        "Cosa più la tiri e più si accorcia?", ["La sigaretta", "Il martello", "Il serpente", "Il Braccio"], "La sigaretta"
     )
 ];
 
