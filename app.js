@@ -76,9 +76,9 @@ function showProgress() {
 function showScores() {
     let quizEndHTML =
         `
-    <div class="finish">    
-        <h1 class="title-finish">Quiz completato</h1>
-        <h2 id='score'> Hai indovinato: ${quiz.score} su ${quiz.questions.length}</h2>
+    <div class="finish" id="finish-mob">    
+        <h1 class="title-finish" id="title-finish-mob">Quiz completato</h1>
+        <h2 id='score' class="score-mob"> Hai indovinato: ${quiz.score} su ${quiz.questions.length}</h2>
         <div class="quiz-repeat">
             <a href="index.html">Vuoi rifare il quiz ?</a>
         </div>

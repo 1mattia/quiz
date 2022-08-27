@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=DM+Sans:wght@700&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
 
 :root{
-    --background-page: rgb(107, 125, 228);
+    --background-page: #3866A3;
 }
 
 *{
@@ -16,7 +16,7 @@ body{
 
 .title{
     text-align: center;
-    padding-top: 50%;
+    padding-top: 10%;
     font-size: 4.5vh;
 }
 
@@ -29,14 +29,14 @@ body{
 
 #question{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
 
     font-size: 2.2vh;
 }
 
 .buttons{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .btn{
@@ -50,28 +50,77 @@ body{
     background: linear-gradient(to top, #63B8EE, #468CCF);
 }
 
+
+@media (max-width: 768px) {
+    .title{
+        padding-top: 40%;
+    }
+
+    .quiz-header{
+        padding-top: 10%;
+    }
+    
+    #question{
+        padding-top: 10%;
+    }
+
+    .buttons{
+        padding-top: 15%;
+    }
+}
+
+
+
+
 /* testo di quando sono finite le domande */
+
+
+@media (max-width: 768px) {
+    
+    #finish-mod{
+        text-align: center;
+    }
+    
+    #title-finish-mob{
+        padding-top: 60%;
+        font-size: 4.5vh;
+    }
+    
+    #score-mob{
+        padding-top: 20%;
+        font-size: 2.3vh;
+    }
+    
+    #quiz-repeat-mob{
+        padding-top: 20%;
+        font-size: 2.2vh;
+    }
+    
+    .quiz-repeat-mob , a{
+        color: rgb(0, 0, 0);
+    }
+}
+
 
 .finish{
     text-align: center;
 }
 
 .title-finish{
-    padding-top: 50%;
+    padding-top: 15%;
     font-size: 4.5vh;
 }
 
 #score{
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 2.3vh;
 }
 
 .quiz-repeat{
-    padding-top: 15%;
+    padding-top: 5%;
     font-size: 2.2vh;
 }
 
 .quiz-repeat , a{
     color: rgb(0, 0, 0);
 }
-
