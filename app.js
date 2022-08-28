@@ -79,6 +79,7 @@ function showScores() {
     <div class="finish" id="finish-mob">    
         <h1 class="title-finish" id="title-finish-mob">Quiz completato</h1>
         <h2 id='score' class="score-mob"> Hai indovinato: ${quiz.score} su ${quiz.questions.length}</h2>
+        <h3 id="trisomie">Livello raggiunto: ${livello.name}</h3>
         <div class="quiz-repeat">
             <a href="index.html">Vuoi rifare il quiz ?</a>
         </div>
@@ -128,8 +129,14 @@ let questions = [
     )
 ];
 
+const livello = {
+    id: "1",
+    name:"scemo"
+}
+
 // INITIALIZE quiz
 let quiz = new Quiz(questions);
+
 
 // display questions
 displayQuestion();
